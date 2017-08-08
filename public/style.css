@@ -1,0 +1,93 @@
+.main-container{
+    width:700px;
+border: 2px;
+/*background-color: red;*/
+margin: 10px auto;
+}
+
+body{
+    background-image: url("images/ladybird-webpage-background3.jpg");
+     background-repeat: no-repeat;
+       background-attachment: fixed;
+       background-position: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aqua;
+    font-size: 20px;
+}
+
+img{
+ /*padding-left:100px;*/
+ /*float:right;*/
+cursor: pointer;
+}
+
+/*input.submit:hover {
+background-color: blue;}
+input.submit:active {
+background-color: chocolate;
+}*/
+/*
+input:focus {
+background-color: #ffffff;
+border: 1px solid #b1e1e4;}*/
+li {
+/*list-style-image: url("images/star.png");*/
+ 
+list-style-type: none;
+font-family:Courier New, Courier, monospace;
+font-size: 30px;
+color: #5a2572;
+border: 4px solid #416a6d;
+margin-bottom: 4px;
+border-radius: 10px;
+
+}
+input#inputField{
+  border: 2px solid #b3b3bc;
+  border-radius: 5px;
+  padding: 8px ;
+  
+  font-size: 120%;
+
+}
+
+
+.submit {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+      background-image: url("images/plusbtn.png");
+     border-radius: 4px;
+    padding:5px ;
+    cursor: pointer;
+color: #444444;
+text-shadow: 0px 1px 1px #ffffff;
+border-bottom: 2px solid #b2b2b2;
+background-color: #b9e4e3;
+background: -webkit-gradient(linear, left top,
+left bottom, from(#beeae9), to(#a8cfce));
+background:
+-moz-linear-gradient(top, #beeae9, #a8cfce);
+background:
+-o-linear-gradient(top, #beeae9, #a8cfce);
+background:
+-ms-linear-gradient(top, #beeae9, #a8cfce);}
+.submit:hover {
+color: #333333;
+border: 1px solid #a4a4a4;
+border-top: 2px solid #b2b2b2;
+background-color: #a0dbc4;
+background: -webkit-gradient(linear, left top,
+left bottom, from(#a8cfce), to(#beeae9));
+background:
+-moz-linear-gradient(top, #a8cfce, #beeae9);
+background:
+-o-linear-gradient(top, #a8cfce, #beeae9);
+background:
+-ms-linear-gradient(top, #a8cfce, #beeae9);}
+
+
+#btn{
+     padding-left:0px;
+}
+
+

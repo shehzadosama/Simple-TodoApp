@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TODO LIST APP</title>
+    
+    <link rel="stylesheet" href="style.css">
+    <script src= "app.js"></script>
+</head>
+<body>
+   <div class="main-container">
+       <img src="images/todolist.png" alt="" height="250" width="250"><br>
+    <input type="text"  id="inputField" onfocus="focus1();" onBlur ="blur1();"  placeholder="Enter your work..."/>
+<br>
+    
+<br>
+<!--<input type="submit"  id="submit" value="Add To List" onclick="myFunction()"></input>-->
+<button class="submit" onclick="myFunction()"> <img id="btn" src="images/plusbtn.png" height="30" width="30">ADD TO LIST</button>
+<!--<input type="submit" id="submit" value="Remove All"  onclick="removeAll()"></input>-->
+<button class="submit" onclick="removeAll()"> <img id="btn" src="images/Delete-Button-PNG-Image.png" height="30" width="30">REMOVE ALL</button>
+
+<ul id="list">
+  
+</ul>
+</div> 
+</body>
+
+</html>
